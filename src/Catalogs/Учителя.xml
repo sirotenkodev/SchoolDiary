@@ -1,34 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<Catalog uuid="48a4f853-5a01-43f7-8524-1586819123bb">
+	<Catalog uuid="c6e474e9-749f-495f-bd0c-2b5d9aaf21ac">
 		<InternalInfo>
-			<xr:GeneratedType name="CatalogObject.Кабинеты" category="Object">
-				<xr:TypeId>1f869f1c-67cd-4713-80a0-653deaafdfcc</xr:TypeId>
-				<xr:ValueId>f41b62e8-4d66-427c-ba58-d730d269363a</xr:ValueId>
+			<xr:GeneratedType name="CatalogObject.Учителя" category="Object">
+				<xr:TypeId>b5effa2a-891c-4a1a-a5c5-74ee0777b9e2</xr:TypeId>
+				<xr:ValueId>09ced7aa-465e-400e-906b-95cd2d954367</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogRef.Кабинеты" category="Ref">
-				<xr:TypeId>4269622a-8dc3-4313-a9bf-26898437710f</xr:TypeId>
-				<xr:ValueId>ba7896fd-8b18-4e5c-95a2-173cb8f002d6</xr:ValueId>
+			<xr:GeneratedType name="CatalogRef.Учителя" category="Ref">
+				<xr:TypeId>5859519a-9fb7-4611-bc10-6a6199901f04</xr:TypeId>
+				<xr:ValueId>94b57369-41ab-48d2-9528-982350fe7c0b</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogSelection.Кабинеты" category="Selection">
-				<xr:TypeId>cb8e37ad-3a90-4c33-801b-9717505d57ab</xr:TypeId>
-				<xr:ValueId>0d44c8d1-0d4d-41c6-b114-91119b3c48b7</xr:ValueId>
+			<xr:GeneratedType name="CatalogSelection.Учителя" category="Selection">
+				<xr:TypeId>bf826e2a-325b-4d94-8211-09fd4f47ab80</xr:TypeId>
+				<xr:ValueId>61f06c7d-7bc0-41f5-8f77-5618da6ee62c</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogList.Кабинеты" category="List">
-				<xr:TypeId>8c0a73e8-be02-46f5-aa3f-2ecbc3c279d5</xr:TypeId>
-				<xr:ValueId>ad28891e-438a-4cb0-884e-bc4bebad7c5c</xr:ValueId>
+			<xr:GeneratedType name="CatalogList.Учителя" category="List">
+				<xr:TypeId>d29ffb6f-879e-4bfc-a827-4ce8490924a7</xr:TypeId>
+				<xr:ValueId>51f2384f-1d57-47fc-92e0-2bcdb30f727a</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogManager.Кабинеты" category="Manager">
-				<xr:TypeId>8c159ee5-98f7-4302-b76d-71cdc0a6a84c</xr:TypeId>
-				<xr:ValueId>c892ca3e-160d-4169-8dd9-b0d5f93c3b41</xr:ValueId>
+			<xr:GeneratedType name="CatalogManager.Учителя" category="Manager">
+				<xr:TypeId>4146e725-018f-44dd-add5-6423e901cff8</xr:TypeId>
+				<xr:ValueId>0eb77331-7332-4b42-baef-756d46818735</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>Кабинеты</Name>
+			<Name>Учителя</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Кабинеты</v8:content>
+					<v8:content>Учителя</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -40,14 +40,14 @@
 			<UseStandardCommands>true</UseStandardCommands>
 			<Owners/>
 			<SubordinationUse>ToItems</SubordinationUse>
-			<CodeLength>3</CodeLength>
-			<DescriptionLength>0</DescriptionLength>
-			<CodeType>Number</CodeType>
+			<CodeLength>9</CodeLength>
+			<DescriptionLength>50</DescriptionLength>
+			<CodeType>String</CodeType>
 			<CodeAllowedLength>Variable</CodeAllowedLength>
 			<CodeSeries>WholeCatalog</CodeSeries>
 			<CheckUnique>true</CheckUnique>
-			<Autonumbering>false</Autonumbering>
-			<DefaultPresentation>AsCode</DefaultPresentation>
+			<Autonumbering>true</Autonumbering>
+			<DefaultPresentation>AsDescription</DefaultPresentation>
 			<StandardAttributes>
 				<xr:StandardAttribute name="PredefinedDataName">
 					<xr:LinkByType/>
@@ -257,7 +257,12 @@
 					<xr:DataHistory>Use</xr:DataHistory>
 					<xr:MarkNegatives>false</xr:MarkNegatives>
 					<xr:MinValue xsi:nil="true"/>
-					<xr:Synonym/>
+					<xr:Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ФИО</v8:content>
+						</v8:item>
+					</xr:Synonym>
 					<xr:Comment/>
 					<xr:FullTextSearch>Use</xr:FullTextSearch>
 					<xr:ChoiceParameterLinks/>
@@ -284,12 +289,7 @@
 					<xr:DataHistory>Use</xr:DataHistory>
 					<xr:MarkNegatives>false</xr:MarkNegatives>
 					<xr:MinValue xsi:nil="true"/>
-					<xr:Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Номер кабинета</v8:content>
-						</v8:item>
-					</xr:Synonym>
+					<xr:Synonym/>
 					<xr:Comment/>
 					<xr:FullTextSearch>Use</xr:FullTextSearch>
 					<xr:ChoiceParameterLinks/>
@@ -304,7 +304,8 @@
 			<QuickChoice>false</QuickChoice>
 			<ChoiceMode>BothWays</ChoiceMode>
 			<InputByString>
-				<xr:Field>Catalog.Кабинеты.StandardAttribute.Code</xr:Field>
+				<xr:Field>Catalog.Учителя.StandardAttribute.Description</xr:Field>
+				<xr:Field>Catalog.Учителя.StandardAttribute.Code</xr:Field>
 			</InputByString>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
@@ -327,27 +328,17 @@
 			<ObjectPresentation>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Кабинет</v8:content>
+					<v8:content>Учитель</v8:content>
 				</v8:item>
 			</ObjectPresentation>
-			<ExtendedObjectPresentation>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Учебный кабинет</v8:content>
-				</v8:item>
-			</ExtendedObjectPresentation>
+			<ExtendedObjectPresentation/>
 			<ListPresentation>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Кабинеты</v8:content>
+					<v8:content>Учителя</v8:content>
 				</v8:item>
 			</ListPresentation>
-			<ExtendedListPresentation>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Учебные кабинеты</v8:content>
-				</v8:item>
-			</ExtendedListPresentation>
+			<ExtendedListPresentation/>
 			<Explanation/>
 			<CreateOnInput>Use</CreateOnInput>
 			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>

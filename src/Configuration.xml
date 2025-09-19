@@ -32,8 +32,13 @@
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
-			<Name>Конфигурация</Name>
-			<Synonym/>
+			<Name>ШкольныйДневник</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Школьный дневник</v8:content>
+				</v8:item>
+			</Synonym>
 			<Comment/>
 			<NamePrefix/>
 			<ConfigurationExtensionCompatibilityMode>Version8_3_27</ConfigurationExtensionCompatibilityMode>
@@ -246,6 +251,7 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Catalog>Кабинеты</Catalog>
+			<Catalog>Учителя</Catalog>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
