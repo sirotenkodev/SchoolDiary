@@ -99,7 +99,9 @@
 				<InputField name="УрокиДомашнееЗадание" id="23">
 					<DataPath>Объект.Уроки.ДомашнееЗадание</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<AutoCellHeight>true</AutoCellHeight>
 					<MultiLine>true</MultiLine>
+					<ExtendedEdit>true</ExtendedEdit>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 					<ContextMenu name="УрокиДомашнееЗаданиеКонтекстноеМеню" id="24"/>
 					<ExtendedTooltip name="УрокиДомашнееЗаданиеРасширеннаяПодсказка" id="25"/>
