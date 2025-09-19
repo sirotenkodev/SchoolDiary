@@ -47,8 +47,8 @@
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
 			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
-			<DefaultObjectForm/>
-			<DefaultListForm/>
+			<DefaultObjectForm>Document.УчебныйДень.Form.ФормаДокумента</DefaultObjectForm>
+			<DefaultListForm>Document.УчебныйДень.Form.ФормаСписка</DefaultListForm>
 			<DefaultChoiceForm/>
 			<AuxiliaryObjectForm/>
 			<AuxiliaryListForm/>
@@ -76,6 +76,8 @@
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
 		<ChildObjects>
+			<Form>ФормаСписка</Form>
+			<Form>ФормаДокумента</Form>
 			<TabularSection uuid="bf988d2c-3394-4846-ad5e-04b9cf5f5abc">
 				<InternalInfo>
 					<xr:GeneratedType name="DocumentTabularSection.УчебныйДень.Уроки" category="TabularSection">
@@ -161,8 +163,8 @@
 							<ToolTip/>
 							<MarkNegatives>false</MarkNegatives>
 							<Mask/>
-							<MultiLine>false</MultiLine>
-							<ExtendedEdit>false</ExtendedEdit>
+							<MultiLine>true</MultiLine>
+							<ExtendedEdit>true</ExtendedEdit>
 							<MinValue xsi:nil="true"/>
 							<MaxValue xsi:nil="true"/>
 							<FillChecking>DontCheck</FillChecking>
