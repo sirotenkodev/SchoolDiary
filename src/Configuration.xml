@@ -253,6 +253,7 @@
 			<Catalog>Кабинеты</Catalog>
 			<Catalog>Учителя</Catalog>
 			<Catalog>Предметы</Catalog>
+			<Document>УчебныйДень</Document>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

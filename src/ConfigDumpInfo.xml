@@ -7,8 +7,15 @@
 			<Metadata name="Catalog.Предметы.Attribute.Кабинет" id="ebbeb2ce-88ca-4154-a679-c575290e4c8d"/>
 		</Metadata>
 		<Metadata name="Catalog.Учителя" id="c6e474e9-749f-495f-bd0c-2b5d9aaf21ac" configVersion="8b6b6f90f2e2b44996f995b157be538200000000"/>
-		<Metadata name="Configuration.ШкольныйДневник" id="68197ee1-72e4-4385-86ca-dd71ddadcaad" configVersion="1ee523cc1b4c964c8b3821494117688900000000"/>
+		<Metadata name="Configuration.ШкольныйДневник" id="68197ee1-72e4-4385-86ca-dd71ddadcaad" configVersion="a0463a4214c24b499f473f1be254c63900000000"/>
 		<Metadata name="Configuration.ШкольныйДневник.MainSectionCommandInterface" id="53e47fc4-d800-4520-b6bf-0734d0318a7f.9" configVersion="3bba71bcd2d75542ac8ece0fbf3601dc00000000"/>
+		<Metadata name="Document.УчебныйДень" id="0ea1ac38-4fdd-461c-b022-cda2bb9db392" configVersion="34e582ae42db4940b9bfb52c808807f700000000">
+			<Metadata name="Document.УчебныйДень.TabularSection.Уроки.Attribute.КомментарийУчителя" id="6474c1a5-44b8-4320-97f5-a271d939eaff"/>
+			<Metadata name="Document.УчебныйДень.TabularSection.Уроки.Attribute.ДомашнееЗадание" id="94dee172-c9a3-4f98-8de0-1de0d4cb422f"/>
+			<Metadata name="Document.УчебныйДень.TabularSection.Уроки.Attribute.Предмет" id="a868c08a-6722-418f-b3b0-96959f38bf54"/>
+			<Metadata name="Document.УчебныйДень.TabularSection.Уроки" id="bf988d2c-3394-4846-ad5e-04b9cf5f5abc"/>
+			<Metadata name="Document.УчебныйДень.TabularSection.Уроки.Attribute.Оценка" id="ef79cb78-4b8d-4beb-9c50-30a8a72e499a"/>
+		</Metadata>
 		<Metadata name="Language.Русский" id="a3cfd199-1ef0-473c-858e-8b74a571b8c9" configVersion="48089cafa0b58944ac9e39ee4fac439000000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
