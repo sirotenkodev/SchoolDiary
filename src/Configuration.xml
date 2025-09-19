@@ -245,6 +245,7 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<Catalog>Кабинеты</Catalog>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
