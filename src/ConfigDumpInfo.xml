@@ -2,10 +2,13 @@
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.20">
 	<ConfigVersions>
 		<Metadata name="Catalog.Кабинеты" id="48a4f853-5a01-43f7-8524-1586819123bb" configVersion="e5419d5e0aaf67419f610e031eb99f4500000000"/>
-		<Metadata name="Catalog.Предметы" id="a9f3d8db-7d1c-4349-82b3-d023cbf94669" configVersion="1a5fe52d9f045540a520668aabec88bf00000000"/>
+		<Metadata name="Catalog.Предметы" id="a9f3d8db-7d1c-4349-82b3-d023cbf94669" configVersion="9e2a554b0a3fa941a4e7a54425fff2a400000000">
+			<Metadata name="Catalog.Предметы.Attribute.Учитель" id="cfb89c56-91be-4493-82de-2cf9c38a9de8"/>
+			<Metadata name="Catalog.Предметы.Attribute.Кабинет" id="ebbeb2ce-88ca-4154-a679-c575290e4c8d"/>
+		</Metadata>
 		<Metadata name="Catalog.Учителя" id="c6e474e9-749f-495f-bd0c-2b5d9aaf21ac" configVersion="8b6b6f90f2e2b44996f995b157be538200000000"/>
-		<Metadata name="Configuration.ШкольныйДневник" id="68197ee1-72e4-4385-86ca-dd71ddadcaad" configVersion="091dbdfcd13f3a469a535be0cdb4bed000000000"/>
-		<Metadata name="Configuration.ШкольныйДневник.MainSectionCommandInterface" id="53e47fc4-d800-4520-b6bf-0734d0318a7f.9" configVersion="159f5228c6ad6242a1e27bc305db323d00000000"/>
+		<Metadata name="Configuration.ШкольныйДневник" id="68197ee1-72e4-4385-86ca-dd71ddadcaad" configVersion="1ee523cc1b4c964c8b3821494117688900000000"/>
+		<Metadata name="Configuration.ШкольныйДневник.MainSectionCommandInterface" id="53e47fc4-d800-4520-b6bf-0734d0318a7f.9" configVersion="3bba71bcd2d75542ac8ece0fbf3601dc00000000"/>
 		<Metadata name="Language.Русский" id="a3cfd199-1ef0-473c-858e-8b74a571b8c9" configVersion="48089cafa0b58944ac9e39ee4fac439000000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
