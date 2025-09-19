@@ -252,6 +252,7 @@
 			<Language>Русский</Language>
 			<Catalog>Кабинеты</Catalog>
 			<Catalog>Учителя</Catalog>
+			<Catalog>Предметы</Catalog>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>
